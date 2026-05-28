@@ -1,0 +1,294 @@
+{
+  "imageSynchronization": {
+    "isEnabled": true,
+    "showUnsynchronizedImages": true
+  },
+  "userSettings": {
+    "keyboardSettings": {
+      "keyboardView": "toLeft",
+      "orderLastQuantityAndPrice": false
+    },
+    "catalogView": "table",
+    "catalogListItemSettings": {
+      "imageVisibleOnList": true,
+      "additionalDisplayedProperty": "none",
+      "itemClickAction": "keyboard"
+    },
+    "fontSize": 15,
+    "catalogFilterDisplay": "productsSorting",
+    "menuTilesDisplay": "auto",
+    "catalogSortingSettings": {
+      "sortSpecialCharsLast": true,
+      "sortEmptyStockLast": false
+    },
+    "openMailApp": false,
+    "complaintsReturnsSettings": {
+      "itemsView": "table",
+      "clickAction": "dialog",
+      "priceEditMode": "value"
+    },
+    "exportImagesCompression": true,
+    "productsBackgroundSync": false,
+    "showCreditLimit": false
+  },
+  "inventoriesSettings": {
+    "isEnabled": false
+  },
+  "salesmanSettings": {
+    "budgetsEnabled": false,
+    "promotionDisplayType": "forUsers",
+    "discountMatrix": false,
+    "requireGeolocationPermission": false,
+    "contractorsNotes": false
+  },
+  "retailPricingSettings": {
+    "isEnabled": false,
+    "retailPricingExpressions": []
+  },
+  "priceListsSettings": {
+    "enableCurrencyPrices": false,
+    "enableIndividualPrices": false
+  },
+  "intervalSettings": {
+    "imageInterval": 36,
+    "syncInterval": 24,
+    "shoppingCartUpdateInterval": 12,
+    "syncCancelButton": false,
+    "tableOverrides": [],
+    "productsInterval": 10,
+    "productsBackgroundSync": false,
+    "synchronizeDocuments": true,
+    "fullSynchronization": false
+  },
+  "stockSettings": {
+    "stockBannerLimit": 1,
+    "showStockSumOfAllWarehouses": false,
+    "showProductTreeStockSumOnCatalog": false,
+    "warehouseConditionExpressions": [],
+    "showStockQuantity": "none",
+    "byRoleWarehouseOverrides": {
+      "client": {
+        "warehouseIds": "",
+        "orderingEnabled": "default"
+      },
+      "salesman": {
+        "warehouseIds": "",
+        "orderingEnabled": "default"
+      },
+      "foreignSalesman": {
+        "warehouseIds": "",
+        "orderingEnabled": "default"
+      },
+      "manufacturer": {
+        "warehouseIds": "",
+        "orderingEnabled": "default"
+      }
+    }
+  },
+  "productsSettings": {
+    "catalogItemPropName": "longName",
+    "orderBaseItem": false,
+    "showPromotionBanner": true,
+    "groupsFiltersEnabled": false,
+    "productSalesBlockedAction": "warn",
+    "purchasePriceOverrideDisplay": "none",
+    "showPurchasePrice": "none",
+    "extremePriceFromAllWarehouses": false,
+    "promotionPriceMode": "byPriceP",
+    "showTradeMargin": false,
+    "minSalesQuantityMode": "default",
+    "defaultDiscountMark": "minus",
+    "contractorPriceChangeAction": "none",
+    "discountsEnabled": false,
+    "showDiscountInCatalog": false,
+    "rememberTagsFilter": false,
+    "ordersReportFilterEnabled": "enabled",
+    "packingTypeSettings": {
+      "packageEnabled": true,
+      "boxEnabled": true,
+      "carteEnabled": true,
+      "layerEnabled": true,
+      "palleteEnabled": true
+    },
+    "catalogItemTileBannerClickAction": "showOrderDialog",
+    "showVat": false,
+    "showGrossValue": false,
+    "containersEnabled": false,
+    "hiddenPrices": "6",
+    "enableProductAccess": true,
+    "filtersSettings": {
+      "showTagsFilter": true,
+      "showCategoriesFilter": true,
+      "showStockQuantityFilter": "enable",
+      "manufacturerGroupsEnabled": false,
+      "filterBySize": false,
+      "filterByColor": false,
+      "childProductSearchFilter": false,
+      "filterByBrand": false,
+      "filterByDiscountMatrix": false
+    },
+    "showLastOrderDate": false,
+    "hasLeadingCodeBehaviour": "none",
+    "showSalesHistory": [
+      "ADMIN",
+      "SALESMAN",
+      "DRIVER",
+      "CLIENT",
+      "FOREIGNSALESMAN",
+      "MANUFACTURER"
+    ],
+    "catalogDefaultSorting": {
+      "sortBy": "name",
+      "direction": "ascending"
+    },
+    "emptyStockQuantityBehaviour": "add",
+    "expirationDateOption": "min",
+    "showBuyerName": false,
+    "showWasteDisposalCost": false,
+    "stockMarkets": false,
+    "catalogCards": false,
+    "childProductPhoto": false,
+    "productInformationCard": "info",
+    "salesBlockByCountry": false,
+    "shortBuyerName": false,
+    "foreignProductsImport": "disabled",
+    "showPriceUd": false,
+    "lowestPricePossible": false,
+    "secondLevelMargin": false,
+    "barcodeImage": false,
+    "ingredients": false
+  },
+  "newOrderSettings": {
+    "shippingEnabled": true,
+    "enforceDeliveryDateIfDeliveryDaysNotSet": "anyIfUnspecified",
+    "showSuppliersCombobox": false,
+    "transportCostsEnabled": false,
+    "enforcedDeliveryDateFromToday": 1,
+    "sameDayDelivery": 0,
+    "skipDeliveryDaysOffWork": false,
+    "anyDeliveryDayIfCollectInPerson": false,
+    "paymentCharacters": [
+      "cash",
+      "bankTransfer"
+    ],
+    "contractorLimitNotifications": true
+  },
+  "clientOrdersSettings": {
+    "clientOrderUpdateEnabled": true,
+    "clientOrderEditEnabled": false,
+    "showAllForForeginSalesman": true,
+    "showProductReservationDate": false,
+    "archiveOrder": false,
+    "clientOrderUnlockMode": "none",
+    "menuOptionBadgeMode": "none",
+    "menuOptionBadgeInterval": 30
+  },
+  "financesSettings": {
+    "financesPdfPrinter": "sewoolkp20ii",
+    "isEnabled": true,
+    "financesCartEnabled": false,
+    "financesInCurrency": false,
+    "afterDueDays": 14,
+    "enableBankDeposit": "disabled",
+    "forceBankDeposit": false,
+    "choosePaymentMethod": false,
+    "joinedExcludedPaymentMethods": ""
+  },
+  "shoppingCartSettings": {
+    "cartSharingEnabled": true,
+    "discountsForCartEnabled": true,
+    "quantityInCartEnabled": false,
+    "automaticImportDuplicates": false,
+    "shoppingCartMinShippingType": "net",
+    "synchronizeShoppingCart": true
+  },
+  "announcementsSettings": {
+    "isEnabled": true,
+    "fromDays": 30
+  },
+  "documentsSettings": {
+    "isEnabled": true,
+    "isDriverOnDocumentEnabled": false
+  },
+  "devicesSettings": {
+    "isEnabled": false
+  },
+  "complaintsReturnsSettings": {
+    "isEnabled": true,
+    "newComplaintReturnEnabled": true,
+    "allowedValuesDictionaryEnabled": true,
+    "cacheValidForHours": 24,
+    "defaultAggregateLevel": {
+      "id": "custom",
+      "columns": [
+        "FAKTURA",
+        "KOD_TEMA",
+        "WALUTA",
+        "VAT_R",
+        "CENA",
+        "CENA_WAL"
+      ]
+    },
+    "pdfGeneratorType": "selliTem",
+    "pdfIncludeBarcode": false,
+    "enableWasteDisposalCostAdjustment": false,
+    "enableForwardingDetails": false,
+    "enableArchivedProducts": false
+  },
+  "clientSettings": {
+    "showDiscount": false,
+    "dayChoiceIsEnabled": false,
+    "shelflifeIsEnabled": false,
+    "showLoyaltyPoints": false,
+    "createdByClient": false,
+    "clientLastPricesEnabled": false,
+    "hideFinancialDataOnDriver": false,
+    "enableExportForClient": false,
+    "contractorsWarehouseData": false,
+    "paymentDaysDisabled": false,
+    "byPromotionFilter": true,
+    "showCoordinates": false,
+    "hideOffers": false
+  },
+  "freeStockSettings": {
+    "isEnabled": false
+  },
+  "salesmanVisits": {
+    "isEnabled": false,
+    "localSalesmanVisitsCreation": "disabled",
+    "ignorePaymentCreationConditions": false,
+    "previousSalesmanVisitCompletionRequired": false,
+    "vehicleChoiceEnabled": false,
+    "createAndModifySalesmanVisits": false,
+    "saveVehicleState": false,
+    "lastSalesmanVisitDate": false,
+    "maxLookbackMonths": 1,
+    "notesForward": 0
+  },
+  "waybillsSettings": {
+    "isEnabled": false,
+    "waybillsListEnabled": false,
+    "waybillsEnabled": false,
+    "waybillsDeliveryListEnabled": false,
+    "waybillsChangeContractorEnabled": false,
+    "synchronizeDateFromDays": 1,
+    "synchronizeDateToDays": 1,
+    "showOnlyMineWaybillsList": false
+  },
+  "concessionSettings": {
+    "concessionDisplayEnabled": false,
+    "requireBeerConcession": true,
+    "requireWineConcession": true,
+    "requireVodkaConcession": true,
+    "requireTobaccoConcession": true,
+    "alertWhenContractorChanged": true,
+    "alertWhenProductAddedToCart": true
+  },
+  "loginSettings": {
+    "forcedLogOutByInactiveMinutes": 0
+  },
+  "promotionsSettings": {
+    "promotionChoiceBelowPriority": null,
+    "highestPrioritySimplePromotion": false
+  }
+}

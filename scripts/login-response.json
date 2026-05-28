@@ -1,0 +1,29 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiSFVCRVJUIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvZ2l2ZW5uYW1lIjoiSFVCRVJUIEdSWllCT1dTS0kiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImRiOTVjZWE1MjcwMDQ4MDE5N2EwOWM2MTVjY2YzZTY1IiwicmVxdWVzdC1zb3VyY2UiOiJUZW1hLkVycC5XZWJBcGkuVG9zLCBWZXJzaW9uPTIuMi4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsImh0dHA6Ly9zY2hlbWFzLnRlbWEuY29tLnBsL2lkZW50aXR5L2NsYWltcy9zYWxlc21hbmlkIjoiODgiLCJodHRwOi8vc2NoZW1hcy50ZW1hLmNvbS5wbC9pZGVudGl0eS9jbGFpbXMvZXJwdXNlcmlkIjoiODgiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiU0FMRVNNQU4iLCJVU0VSIl0sImV4cCI6MTc3OTYzODEzMywiaXNzIjoiaWh1cnQucGwiLCJhdWQiOiJpaHVydC5wbCJ9.Sf9HFuxKXaoszL1NU2-526qfTjbSA4TQYwGehaev10A",
+  "userId": "db95cea52700480197a09c615ccf3e65",
+  "userName": "HUBERT",
+  "fullName": "HUBERT GRZYBOWSKI",
+  "email": "hubert.grzybowski@world.szczecin.pl",
+  "roles": [
+    {
+      "name": "SALESMAN",
+      "data": {
+        "erpUserId": 88,
+        "salesmanId": 88
+      }
+    },
+    {
+      "name": "USER"
+    }
+  ],
+  "erpUserId": 88,
+  "salesmanId": 88,
+  "relatedSalesmanIds": [
+    88
+  ],
+  "salesmanData": {
+    "name": "HUBERT GRZYBOWSKI",
+    "phoneNumber": "",
+    "email": ""
+  }
+}

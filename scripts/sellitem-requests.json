@@ -1,0 +1,341 @@
+[
+  {
+    "path": "/web/assets/json/config.json?t=1004",
+    "keys": [
+      "apiLink",
+      "tsmApiLink",
+      "appName",
+      "captchaKey",
+      "imageInterval",
+      "syncInterval",
+      "shoppingCartUpdateInterval",
+      "pushNotificationsSettings",
+      "quotaLimit",
+      "stockSettings",
+      "contractorSettings",
+      "productsSettings",
+      "salesmanVisits",
+      "imageSynchronization",
+      "userSettings",
+      "waybillsSettings",
+      "inventoriesSettings",
+      "newOrderSettings",
+      "promotionsSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "salesmanSettings",
+      "shoppingCartSettings",
+      "announcementsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/service/configuration",
+    "keys": [
+      "appInsightsKey"
+    ]
+  },
+  {
+    "path": "/server/api/tos/tsm/parameters/login-page-information",
+    "keys": [
+      "title"
+    ]
+  },
+  {
+    "path": "/web/assets/json/config.json?t=1004",
+    "keys": [
+      "apiLink",
+      "tsmApiLink",
+      "appName",
+      "captchaKey",
+      "imageInterval",
+      "syncInterval",
+      "shoppingCartUpdateInterval",
+      "pushNotificationsSettings",
+      "quotaLimit",
+      "stockSettings",
+      "contractorSettings",
+      "productsSettings",
+      "salesmanVisits",
+      "imageSynchronization",
+      "userSettings",
+      "waybillsSettings",
+      "inventoriesSettings",
+      "newOrderSettings",
+      "promotionsSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "salesmanSettings",
+      "shoppingCartSettings",
+      "announcementsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/service/configuration",
+    "keys": [
+      "appInsightsKey"
+    ]
+  },
+  {
+    "path": "/server/api/tos/tsm/parameters?init=true",
+    "keys": [
+      "imageSynchronization",
+      "userSettings",
+      "inventoriesSettings",
+      "salesmanSettings",
+      "retailPricingSettings",
+      "priceListsSettings",
+      "intervalSettings",
+      "stockSettings",
+      "productsSettings",
+      "newOrderSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "shoppingCartSettings",
+      "announcementsSettings",
+      "documentsSettings",
+      "devicesSettings",
+      "complaintsReturnsSettings",
+      "clientSettings",
+      "freeStockSettings",
+      "salesmanVisits",
+      "waybillsSettings",
+      "concessionSettings",
+      "loginSettings",
+      "promotionsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/tsm/parameters/login-page-information",
+    "keys": [
+      "title"
+    ]
+  },
+  {
+    "path": "/server/api/tos/account/login",
+    "keys": [
+      "token",
+      "userId",
+      "userName",
+      "fullName",
+      "email",
+      "roles",
+      "erpUserId",
+      "salesmanId",
+      "relatedSalesmanIds",
+      "salesmanData"
+    ]
+  },
+  {
+    "path": "/server/api/tos/tsm/parameters?init=true",
+    "keys": [
+      "imageSynchronization",
+      "userSettings",
+      "inventoriesSettings",
+      "salesmanSettings",
+      "retailPricingSettings",
+      "priceListsSettings",
+      "intervalSettings",
+      "stockSettings",
+      "productsSettings",
+      "newOrderSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "shoppingCartSettings",
+      "announcementsSettings",
+      "documentsSettings",
+      "devicesSettings",
+      "complaintsReturnsSettings",
+      "clientSettings",
+      "freeStockSettings",
+      "salesmanVisits",
+      "waybillsSettings",
+      "concessionSettings",
+      "loginSettings",
+      "promotionsSettings"
+    ]
+  },
+  {
+    "path": "/web/manifest.json?v=1004",
+    "keys": [
+      "short_name",
+      "name",
+      "icons",
+      "start_url",
+      "background_color",
+      "theme_color",
+      "display",
+      "description"
+    ]
+  },
+  {
+    "path": "/web/assets/json/config.json?v=1004",
+    "keys": [
+      "apiLink",
+      "tsmApiLink",
+      "appName",
+      "captchaKey",
+      "imageInterval",
+      "syncInterval",
+      "shoppingCartUpdateInterval",
+      "pushNotificationsSettings",
+      "quotaLimit",
+      "stockSettings",
+      "contractorSettings",
+      "productsSettings",
+      "salesmanVisits",
+      "imageSynchronization",
+      "userSettings",
+      "waybillsSettings",
+      "inventoriesSettings",
+      "newOrderSettings",
+      "promotionsSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "salesmanSettings",
+      "shoppingCartSettings",
+      "announcementsSettings"
+    ]
+  },
+  {
+    "path": "/web/assets/json/config.json?t=1004",
+    "keys": [
+      "apiLink",
+      "tsmApiLink",
+      "appName",
+      "captchaKey",
+      "imageInterval",
+      "syncInterval",
+      "shoppingCartUpdateInterval",
+      "pushNotificationsSettings",
+      "quotaLimit",
+      "stockSettings",
+      "contractorSettings",
+      "productsSettings",
+      "salesmanVisits",
+      "imageSynchronization",
+      "userSettings",
+      "waybillsSettings",
+      "inventoriesSettings",
+      "newOrderSettings",
+      "promotionsSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "salesmanSettings",
+      "shoppingCartSettings",
+      "announcementsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/service/configuration",
+    "keys": [
+      "appInsightsKey"
+    ]
+  },
+  {
+    "path": "/server/api/tos/tsm/parameters?init=true",
+    "keys": [
+      "imageSynchronization",
+      "userSettings",
+      "inventoriesSettings",
+      "salesmanSettings",
+      "retailPricingSettings",
+      "priceListsSettings",
+      "intervalSettings",
+      "stockSettings",
+      "productsSettings",
+      "newOrderSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "shoppingCartSettings",
+      "announcementsSettings",
+      "documentsSettings",
+      "devicesSettings",
+      "complaintsReturnsSettings",
+      "clientSettings",
+      "freeStockSettings",
+      "salesmanVisits",
+      "waybillsSettings",
+      "concessionSettings",
+      "loginSettings",
+      "promotionsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/account/refresh-token",
+    "keys": [
+      "token",
+      "roles"
+    ]
+  },
+  {
+    "path": "/web/assets/json/config.json?t=1004",
+    "keys": [
+      "apiLink",
+      "tsmApiLink",
+      "appName",
+      "captchaKey",
+      "imageInterval",
+      "syncInterval",
+      "shoppingCartUpdateInterval",
+      "pushNotificationsSettings",
+      "quotaLimit",
+      "stockSettings",
+      "contractorSettings",
+      "productsSettings",
+      "salesmanVisits",
+      "imageSynchronization",
+      "userSettings",
+      "waybillsSettings",
+      "inventoriesSettings",
+      "newOrderSettings",
+      "promotionsSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "salesmanSettings",
+      "shoppingCartSettings",
+      "announcementsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/service/configuration",
+    "keys": [
+      "appInsightsKey"
+    ]
+  },
+  {
+    "path": "/server/api/tos/tsm/parameters?init=true",
+    "keys": [
+      "imageSynchronization",
+      "userSettings",
+      "inventoriesSettings",
+      "salesmanSettings",
+      "retailPricingSettings",
+      "priceListsSettings",
+      "intervalSettings",
+      "stockSettings",
+      "productsSettings",
+      "newOrderSettings",
+      "clientOrdersSettings",
+      "financesSettings",
+      "shoppingCartSettings",
+      "announcementsSettings",
+      "documentsSettings",
+      "devicesSettings",
+      "complaintsReturnsSettings",
+      "clientSettings",
+      "freeStockSettings",
+      "salesmanVisits",
+      "waybillsSettings",
+      "concessionSettings",
+      "loginSettings",
+      "promotionsSettings"
+    ]
+  },
+  {
+    "path": "/server/api/tos/account/refresh-token",
+    "keys": [
+      "token",
+      "roles"
+    ]
+  }
+]

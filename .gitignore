@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# debug / screenshots
+*.png
+debug-*.html
+requests-log.txt
+
+# dane skryptów
+price-map.json
+fetch-empty-products.json
+test-prices-result.json
+
+# claude / mcp
+.claude/
+.mcp.json
