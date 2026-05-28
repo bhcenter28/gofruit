@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { kontaktSchema } from "@/lib/validations";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req: NextRequest) {
   const body = await req.json();
   const parsed = kontaktSchema.safeParse(body);
@@ -13,6 +11,13 @@ export async function POST(req: NextRequest) {
   }
 
   const { imie_nazwisko, firma, telefon, email, wiadomosc, produkt } = parsed.data;
+
+  if (!process.env.RESEND_API_KEY) {
+    console.warn("RESEND_API_KEY not set — email not sent");
+    return NextResponse.json({ ok: true });
+  }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   const { error } = await resend.emails.send({
     from: "Formularz Fruit <formularz@fruit-hurtownia.pl>",
