@@ -239,7 +239,7 @@ export function HeroSection() {
         />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_460px] xl:grid-cols-[1fr_500px] gap-16 items-center">
 
           {/* ===== LEFT COLUMN ===== */}
@@ -262,7 +262,7 @@ export function HeroSection() {
 
             {/* Headline */}
             <h1
-              className="text-5xl sm:text-6xl xl:text-7xl font-black leading-[1.05] mb-6 overflow-hidden"
+              className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.05] mb-6 overflow-hidden"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               <motion.div

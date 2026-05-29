@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Search, X } from "lucide-react";
+import { Search, X, ChevronDown, SlidersHorizontal } from "lucide-react";
 
 interface Props {
   kategorie: string[];
@@ -13,6 +13,7 @@ interface Props {
 export function KatalogFilters({ kategorie, currentKategoria, currentSzukaj }: Props) {
   const router = useRouter();
   const [szukaj, setSzukaj] = useState(currentSzukaj);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     setSzukaj(currentSzukaj);
@@ -23,7 +24,6 @@ export function KatalogFilters({ kategorie, currentKategoria, currentSzukaj }: P
       const params = new URLSearchParams();
       if (szukaj.trim()) {
         params.set("szukaj", szukaj.trim());
-        // search across all — no category
       } else if (currentKategoria) {
         params.set("kategoria", currentKategoria);
       }
@@ -37,10 +37,15 @@ export function KatalogFilters({ kategorie, currentKategoria, currentSzukaj }: P
     const params = new URLSearchParams();
     if (kat) params.set("kategoria", kat);
     router.push(`/katalog${params.toString() ? `?${params.toString()}` : ""}`);
+    setMobileOpen(false);
   }
 
-  return (
-    <div className="bg-white rounded-xl border border-gray-200 p-4 sticky top-20">
+  const activeLabel = currentKategoria
+    ? currentKategoria.charAt(0) + currentKategoria.slice(1).toLowerCase()
+    : "Wszystkie";
+
+  const filterContent = (
+    <>
       {/* Wyszukiwarka */}
       <div className="mb-5">
         <label
@@ -86,7 +91,7 @@ export function KatalogFilters({ kategorie, currentKategoria, currentSzukaj }: P
             <li key={kat}>
               <button
                 onClick={() => goToKategoria(kat)}
-                className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors duration-150 ${
+                className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors duration-150 cursor-pointer ${
                   !szukaj && currentKategoria === kat
                     ? "bg-[#0F172A] text-white font-medium"
                     : "text-[#334155] hover:bg-[#F1F5F9]"
@@ -98,6 +103,41 @@ export function KatalogFilters({ kategorie, currentKategoria, currentSzukaj }: P
           ))}
         </ul>
       </div>
-    </div>
+    </>
+  );
+
+  return (
+    <>
+      {/* ── MOBILE: zwijany panel ── */}
+      <div className="lg:hidden">
+        <button
+          onClick={() => setMobileOpen(!mobileOpen)}
+          className="w-full flex items-center justify-between gap-2 px-4 py-3 bg-white rounded-xl border border-gray-200 text-sm font-semibold text-[#334155] cursor-pointer"
+        >
+          <span className="flex items-center gap-2">
+            <SlidersHorizontal className="w-4 h-4 text-[#CC1111]" />
+            Filtry
+            {(currentKategoria || currentSzukaj) && (
+              <span className="px-1.5 py-0.5 rounded-full bg-[#CC1111] text-white text-[10px] font-bold leading-none">
+                {currentSzukaj ? "szukaj" : activeLabel}
+              </span>
+            )}
+          </span>
+          <ChevronDown
+            className={`w-4 h-4 text-[#94A3B8] transition-transform duration-200 ${mobileOpen ? "rotate-180" : ""}`}
+          />
+        </button>
+        {mobileOpen && (
+          <div className="mt-2 bg-white rounded-xl border border-gray-200 p-4">
+            {filterContent}
+          </div>
+        )}
+      </div>
+
+      {/* ── DESKTOP: normalny sidebar ── */}
+      <div className="hidden lg:block bg-white rounded-xl border border-gray-200 p-4 sticky top-20">
+        {filterContent}
+      </div>
+    </>
   );
 }

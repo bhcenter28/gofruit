@@ -126,12 +126,12 @@ export default function Home() {
 
       {/* Stats */}
       <section className="bg-[#0A111E] border-y border-[#1E293B]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <StaggerChildren className="grid grid-cols-3 gap-8 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+          <StaggerChildren className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center">
             {stats.map((s) => (
               <StaggerItem key={s.label}>
                 <div
-                  className="text-4xl sm:text-5xl font-bold text-white mb-2"
+                  className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-1.5"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   <AnimatedCounter to={s.to} suffix={s.suffix} />
