@@ -223,18 +223,18 @@ export function HeroSection() {
             backgroundSize: "64px 64px",
           }}
         />
-        {/* Red glow — top right (behind showcase) */}
+        {/* Red glow — top right */}
         <motion.div
-          className="absolute -top-40 right-0 w-[700px] h-[700px] rounded-full opacity-[0.09]"
+          className="absolute -top-40 right-0 w-[600px] h-[600px] rounded-full"
           style={{ background: "radial-gradient(circle, #CC1111 0%, transparent 65%)" }}
-          animate={reduced ? {} : { scale: [1, 1.12, 1], opacity: [0.07, 0.13, 0.07] }}
+          animate={reduced ? {} : { opacity: [0.07, 0.13, 0.07] }}
           transition={{ duration: 9, repeat: Infinity, ease: "easeInOut" }}
         />
         {/* Blue glow — bottom left */}
         <motion.div
-          className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full opacity-[0.06]"
+          className="absolute -bottom-40 -left-40 w-[400px] h-[400px] rounded-full"
           style={{ background: "radial-gradient(circle, #3B82F6 0%, transparent 65%)" }}
-          animate={reduced ? {} : { scale: [1, 1.2, 1], opacity: [0.04, 0.09, 0.04] }}
+          animate={reduced ? {} : { opacity: [0.04, 0.08, 0.04] }}
           transition={{ duration: 11, repeat: Infinity, ease: "easeInOut", delay: 3 }}
         />
       </div>
