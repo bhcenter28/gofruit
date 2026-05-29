@@ -1,4 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Fruit – Hurtownia Produktów Spożywczych | Szczecin",
+  description: "Hurtownia spożywcza Fruit – ponad 10 000 produktów dla sklepów, restauracji i stacji benzynowych. Szczecin i cała Polska. Dostawa 48h, ceny hurt.",
+  alternates: { canonical: "https://gofruit.pl" },
+  openGraph: {
+    title: "Fruit – Hurtownia Produktów Spożywczych",
+    description: "Ponad 10 000 produktów spożywczych. Szybka dostawa. Konkurencyjne ceny. Działamy od 2003 r.",
+    url: "https://gofruit.pl",
+  },
+};
 import {
   ArrowRight,
   Truck,

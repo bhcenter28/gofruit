@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
+
+export const metadata: Metadata = {
+  title: "Kontakt",
+  description: "Skontaktuj się z hurtownią Fruit. Zapytaj o ofertę, warunki współpracy lub złóż zamówienie. Obsługujemy sklepy, restauracje i stacje benzynowe.",
+  alternates: { canonical: "https://gofruit.pl/kontakt" },
+};
 
 export default async function KontaktPage({
   searchParams,

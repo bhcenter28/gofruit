@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import { supabase, type Produkt } from "@/lib/supabase";
+
+export const metadata: Metadata = {
+  title: "Katalog produktów",
+  description: "Przeglądaj pełny katalog hurtowni Fruit – napoje, słodycze, nabiał, wędliny, chemia, piekarnia i wiele więcej. Ponad 10 000 produktów w atrakcyjnych cenach hurtowych.",
+  alternates: { canonical: "https://gofruit.pl/katalog" },
+};
 import { ProductGrid } from "@/components/ProductGrid";
 import { KatalogFilters } from "@/components/KatalogFilters";
 import { Pagination } from "@/components/Pagination";
