@@ -54,7 +54,7 @@ export function ContactModal() {
               <button
                 onClick={close}
                 aria-label="Zamknij formularz"
-                className="absolute -top-3 -right-3 z-10 w-9 h-9 rounded-full bg-[#1E293B] border border-white/10 hover:bg-[#334155] flex items-center justify-center transition-colors duration-150 cursor-pointer shadow-lg"
+                className="absolute -top-3 -right-3 z-10 w-9 h-9 bg-[#171717] hover:bg-[#E23744] flex items-center justify-center transition-colors duration-150 cursor-pointer shadow-lg"
               >
                 <X className="w-4 h-4 text-white/80" aria-hidden="true" />
               </button>

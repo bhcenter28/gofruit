@@ -49,42 +49,53 @@
 }
 
 :root {
-  /* Design system: Fruit Hurtownia — Trust & Authority */
-  --font-heading: 'Lexend', sans-serif;
-  --font-body: 'Source Sans 3', sans-serif;
+  /* Design system: Fruit Hurtownia — Clean editorial (white + single red, ostre krawędzie) */
+  --font-heading: var(--font-hanken), 'Hanken Grotesk', sans-serif;
+  --font-body: var(--font-hanken), 'Hanken Grotesk', sans-serif;
 
-  --background: #F8FAFC;
-  --foreground: #020617;
+  /* Core palette — biel + jedna czerwień, neutralne szarości (bez granatu i tęczy) */
+  --ink:        #171717;  /* nagłówki / ciemny */
+  --ink-soft:   #3F3F46;  /* mocny tekst */
+  --body:       #52525B;  /* tekst podstawowy (kontrast ~7:1 na bieli) */
+  --muted-ink:  #71717A;  /* tekst drugorzędny */
+  --line:       #EAEAEC;  /* obramowania */
+  --surface:    #F6F6F7;  /* jasne tło sekcji */
+  --brand:      #E23744;  /* jedna czerwień — akcent marki */
+  --brand-dark: #C42130;  /* hover */
+  --brand-tint: #FCEBEC;  /* delikatne tło czerwone */
+
+  --background: #FFFFFF;
+  --foreground: #171717;
   --card: #FFFFFF;
-  --card-foreground: #020617;
+  --card-foreground: #171717;
   --popover: #FFFFFF;
-  --popover-foreground: #020617;
-  --primary: #0F172A;
-  --primary-foreground: #F8FAFC;
-  --secondary: #334155;
-  --secondary-foreground: #F8FAFC;
-  --muted: #F1F5F9;
-  --muted-foreground: #64748B;
-  --accent: #CC1111;
+  --popover-foreground: #171717;
+  --primary: #171717;
+  --primary-foreground: #FFFFFF;
+  --secondary: #3F3F46;
+  --secondary-foreground: #FFFFFF;
+  --muted: #F6F6F7;
+  --muted-foreground: #71717A;
+  --accent: #E23744;
   --accent-foreground: #FFFFFF;
   --destructive: #DC2626;
-  --border: #E2E8F0;
-  --input: #E2E8F0;
-  --ring: #CC1111;
-  --chart-1: #CC1111;
-  --chart-2: #0F172A;
-  --chart-3: #334155;
-  --chart-4: #64748B;
-  --chart-5: #94A3B8;
-  --radius: 0.625rem;
-  --sidebar: #F8FAFC;
-  --sidebar-foreground: #020617;
-  --sidebar-primary: #0F172A;
-  --sidebar-primary-foreground: #F8FAFC;
-  --sidebar-accent: #F1F5F9;
-  --sidebar-accent-foreground: #020617;
-  --sidebar-border: #E2E8F0;
-  --sidebar-ring: #CC1111;
+  --border: #EAEAEC;
+  --input: #EAEAEC;
+  --ring: #E23744;
+  --chart-1: #E23744;
+  --chart-2: #171717;
+  --chart-3: #52525B;
+  --chart-4: #A1A1AA;
+  --chart-5: #D4D4D8;
+  --radius: 0.125rem; /* prawie ostre krawędzie — edytorialnie, bez „AI-owych" zaokrągleń */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #171717;
+  --sidebar-primary: #171717;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F6F6F7;
+  --sidebar-accent-foreground: #171717;
+  --sidebar-border: #EAEAEC;
+  --sidebar-ring: #E23744;
 }
 
 .dark {

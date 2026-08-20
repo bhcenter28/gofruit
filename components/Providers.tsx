@@ -11,7 +11,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
       <ContactModal />
       <AppProgressBar
         height="3px"
-        color="#CC1111"
+        color="#E23744"
         options={{ showSpinner: false }}
         shallowRouting
       />
