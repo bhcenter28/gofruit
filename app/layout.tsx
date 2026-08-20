@@ -64,6 +64,9 @@ const jsonLd = {
       "@type": "Organization",
       "@id": `${BASE_URL}/#organization`,
       name: "Fruit Hurtownia Spożywcza",
+      legalName: "FRUIT Mariusz Grzybowski, Henryk Grzybowski Spółka Jawna",
+      taxID: "8522380980",
+      vatID: "PL8522380980",
       url: BASE_URL,
       logo: { "@type": "ImageObject", url: `${BASE_URL}/logo.png` },
       contactPoint: {
@@ -75,9 +78,9 @@ const jsonLd = {
       },
       address: {
         "@type": "PostalAddress",
-        streetAddress: "ul. Przykładowa 1",
+        streetAddress: "al. Wojska Polskiego 191/6",
         addressLocality: "Szczecin",
-        postalCode: "70-000",
+        postalCode: "71-325",
         addressCountry: "PL",
       },
       sameAs: [],

@@ -8,8 +8,9 @@ export default function PolitykaPrywatnosci() {
       <section>
         <h2>1. Administrator danych osobowych</h2>
         <p>
-          Administratorem Twoich danych osobowych jest <strong>Fruit Hurtownia Spożywcza</strong>,
-          z siedzibą przy ul. Przykładowej 1, 70-000 Szczecin, NIP: 852-238-09-80
+          Administratorem Twoich danych osobowych jest{" "}
+          <strong>FRUIT Mariusz Grzybowski, Henryk Grzybowski sp.j.</strong>, z siedzibą przy
+          al. Wojska Polskiego 191/6, 71-325 Szczecin, NIP: 852-238-09-80, REGON: 812585963
           (dalej: „Administrator").
         </p>
         <p>

@@ -41,6 +41,8 @@ export function Footer() {
             </p>
             <div className="flex flex-col gap-1 text-xs text-[#A1A1AA]">
               <span>NIP: 852-238-09-80</span>
+              <span>REGON: 812585963</span>
+              <span>KRS: 0000232172</span>
             </div>
           </div>
 
@@ -81,7 +83,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#71717A]">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-[#E23744]" aria-hidden="true" />
-                <span>ul. Przykładowa 1<br />70-000 Szczecin</span>
+                <span>al. Wojska Polskiego 191/6<br />71-325 Szczecin</span>
               </li>
             </ul>
           </div>
@@ -104,7 +106,7 @@ export function Footer() {
             <div className="mt-5 p-3 rounded-none bg-[#F6F6F7] border border-[#EAEAEC]">
               <p className="text-xs text-[#71717A] leading-relaxed">
                 Administrator danych zgodnie z RODO:<br />
-                <span className="text-[#171717] font-medium">Fruit Hurtownia Spożywcza</span>
+                <span className="text-[#171717] font-medium">FRUIT Mariusz Grzybowski, Henryk Grzybowski sp.j.</span>
               </p>
             </div>
           </div>

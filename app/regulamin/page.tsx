@@ -9,8 +9,9 @@ export default function Regulamin() {
         <h2>§1 Postanowienia ogólne</h2>
         <p>
           Niniejszy regulamin określa zasady korzystania z serwisu internetowego{" "}
-          <strong>gofruit.pl</strong> prowadzonego przez Fruit Hurtownię Spożywczą
-          z siedzibą przy ul. Przykładowej 1, 70-000 Szczecin (dalej: „Operator").
+          <strong>gofruit.pl</strong> prowadzonego przez FRUIT Mariusz Grzybowski,
+          Henryk Grzybowski sp.j. z siedzibą przy al. Wojska Polskiego 191/6, 71-325 Szczecin
+          (dalej: „Operator").
         </p>
         <p>Korzystanie z serwisu oznacza akceptację niniejszego regulaminu.</p>
       </section>

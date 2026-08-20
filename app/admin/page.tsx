@@ -24,7 +24,7 @@ export default function AdminLoginPage() {
     });
 
     if (res.ok) {
-      router.push("/admin/produkty");
+      router.push("/admin/zapytania");
     } else {
       setError("Nieprawidłowe hasło");
       setLoading(false);
