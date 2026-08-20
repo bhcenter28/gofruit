@@ -63,11 +63,11 @@ export function Navbar() {
             <div className="w-px h-5 mx-2 bg-[#EAEAEC]" />
 
             <a
-              href="tel:+48000000000"
+              href="tel:+48731025736"
               className="hidden lg:flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-[#52525B] hover:text-[#171717] transition-colors duration-200"
             >
               <Phone className="w-3.5 h-3.5" aria-hidden="true" />
-              +48 000 000 000
+              +48 731 025 736
             </a>
 
             <button
@@ -82,7 +82,7 @@ export function Navbar() {
           {/* Mobile toggle */}
           <div className="md:hidden flex items-center gap-1">
             <a
-              href="tel:+48000000000"
+              href="tel:+48731025736"
               aria-label="Zadzwoń"
               className="p-2 rounded-none text-[#52525B] hover:text-[#171717] hover:bg-[#F6F6F7] transition-colors"
             >

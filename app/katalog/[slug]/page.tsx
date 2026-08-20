@@ -115,7 +115,7 @@ export default async function ProduktPage({
               Zapytaj o produkt
             </Link>
             <a
-              href="tel:+48000000000"
+              href="tel:+48731025736"
               className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-lg border border-gray-200 text-[#334155] font-medium hover:border-[#CC1111] hover:text-[#CC1111] transition-colors duration-200 cursor-pointer"
             >
               <Phone className="w-4 h-4" aria-hidden="true" />

@@ -68,7 +68,7 @@ const jsonLd = {
       logo: { "@type": "ImageObject", url: `${BASE_URL}/logo.png` },
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+48-000-000-000",
+        telephone: "+48 731 025 736",
         contactType: "sales",
         areaServed: "PL",
         availableLanguage: "Polish",

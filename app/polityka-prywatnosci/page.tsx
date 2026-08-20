@@ -9,7 +9,7 @@ export default function PolitykaPrywatnosci() {
         <h2>1. Administrator danych osobowych</h2>
         <p>
           Administratorem Twoich danych osobowych jest <strong>Fruit Hurtownia Spożywcza</strong>,
-          z siedzibą przy ul. Przykładowej 1, 70-000 Szczecin, NIP: 000-000-00-00
+          z siedzibą przy ul. Przykładowej 1, 70-000 Szczecin, NIP: 852-238-09-80
           (dalej: „Administrator").
         </p>
         <p>

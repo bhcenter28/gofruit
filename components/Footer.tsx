@@ -40,8 +40,7 @@ export function Footer() {
               Szeroki asortyment, uczciwe ceny, dostawa na czas.
             </p>
             <div className="flex flex-col gap-1 text-xs text-[#A1A1AA]">
-              <span>NIP: 000-000-00-00</span>
-              <span>REGON: 000000000</span>
+              <span>NIP: 852-238-09-80</span>
             </div>
           </div>
 
@@ -69,7 +68,10 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5 text-sm text-[#71717A]">
                 <Phone className="w-4 h-4 mt-0.5 shrink-0 text-[#E23744]" aria-hidden="true" />
-                <a href="tel:+48000000000" className="hover:text-[#171717] transition-colors">+48 000 000 000</a>
+                <span className="flex flex-col">
+                  <a href="tel:+48731025736" className="hover:text-[#171717] transition-colors">+48 731 025 736</a>
+                  <a href="tel:+48725580107" className="hover:text-[#171717] transition-colors">+48 725 580 107</a>
+                </span>
               </li>
               <li className="flex items-start gap-2.5 text-sm text-[#71717A]">
                 <Mail className="w-4 h-4 mt-0.5 shrink-0 text-[#E23744]" aria-hidden="true" />

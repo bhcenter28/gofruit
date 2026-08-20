@@ -11,7 +11,8 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 
 const contactDetails = [
-  { Icon: Phone, value: "+48 000 000 000", sub: "Pn–Pt 7:00–17:00", href: "tel:+48000000000" },
+  { Icon: Phone, value: "+48 731 025 736", sub: "Pn–Pt 7:00–17:00", href: "tel:+48731025736" },
+  { Icon: Phone, value: "+48 725 580 107", sub: "Telefon dodatkowy", href: "tel:+48725580107" },
   { Icon: Mail,  value: "biuro@gofruit.pl", sub: "Odpowiedź w 1 dzień roboczy", href: "mailto:biuro@gofruit.pl" },
   { Icon: MapPin, value: "ul. Przykładowa 1", sub: "70-000 Szczecin", href: null },
   { Icon: Clock,  value: "Pn–Pt 7:00–17:00", sub: "Sob 8:00–13:00", href: null },

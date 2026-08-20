@@ -334,7 +334,7 @@ export function ProductModal({ produkt, onClose }: Props) {
                         <ArrowRight className="w-3.5 h-3.5 ml-auto group-hover:translate-x-1 transition-transform" />
                       </Link>
                       <a
-                        href="tel:+48000000000"
+                        href="tel:+48731025736"
                         className="flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-semibold border border-gray-200 text-[#334155] hover:border-gray-300 hover:bg-gray-50 transition-all duration-200"
                       >
                         <Phone className="w-4 h-4" />
