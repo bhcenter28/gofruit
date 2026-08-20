@@ -5,17 +5,17 @@ const clients = [
   {
     image: IMAGES.retailShop,
     title: "Sklepy spożywcze",
-    desc: "Od osiedlowego sklepu po sieci — regularne, terminowe dostawy i szeroki asortyment.",
+    desc: "Od osiedlowego sklepu po sieci. Regularne, terminowe dostawy i szeroki asortyment.",
   },
   {
     image: IMAGES.gastronomy,
     title: "Gastronomia",
-    desc: "Restauracje, bary i catering — świeże produkty i pełna oferta prosto do kuchni.",
+    desc: "Restauracje, bary i catering. Świeże produkty i pełna oferta prosto do kuchni.",
   },
   {
     image: IMAGES.retailAisle,
     title: "Stacje i convenience",
-    desc: "Napoje, przekąski, nabiał — kompleksowe zaopatrzenie dopasowane do punktu.",
+    desc: "Napoje, przekąski, nabiał i kompleksowe zaopatrzenie dopasowane do punktu.",
   },
 ];
 

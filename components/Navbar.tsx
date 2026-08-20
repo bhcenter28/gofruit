@@ -39,7 +39,7 @@ export function Navbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0 group">
-            <Image src="/logo.png" alt="Fruit — hurtownia spożywcza" width={40} height={40} className="rounded-none" priority />
+            <Image src="/logo.png" alt="Fruit, hurtownia spożywcza" width={40} height={40} className="rounded-none" priority />
             <div className="hidden sm:block leading-none">
               <p className="font-bold text-[15px] text-[#171717]" style={{ fontFamily: "var(--font-heading)" }}>
                 Fruit

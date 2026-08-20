@@ -21,7 +21,7 @@ const milestones: Milestone[] = [
     image: IMAGES.produce,
     alt: "Świeże owoce i warzywa na ladzie",
     title: "Rodzinna hurtownia w Szczecinie",
-    desc: "Zaczęliśmy od małego magazynu owoców i warzyw i jednego przekonania: świeżość i uczciwa cena obronią się same. Każdą dostawę sprawdzaliśmy osobiście — i tak zostało do dziś.",
+    desc: "Zaczęliśmy od małego magazynu owoców i warzyw oraz jednego przekonania: świeżość i uczciwa cena obronią się same. Każdą dostawę sprawdzaliśmy osobiście. Tak zostało do dziś.",
     stats: [{ value: "1", label: "magazyn" }, { value: "100%", label: "rodzinnie" }],
   },
   {
@@ -30,7 +30,7 @@ const milestones: Milestone[] = [
     image: IMAGES.retailShop,
     alt: "Alejka sklepu spożywczego",
     title: "Pierwsi duzi partnerzy",
-    desc: "Lata budowania reputacji przyniosły efekt — zaufały nam lokalne sieci sklepów i restauracje. To był dowód, że rodzinny model obsługi działa również na większą skalę.",
+    desc: "Lata budowania reputacji przyniosły efekt. Zaufały nam lokalne sieci sklepów i restauracje. To był dowód, że rodzinny model obsługi działa również na większą skalę.",
     stats: [{ value: "50+", label: "stałych partnerów" }, { value: "7:00", label: "start dostaw" }],
   },
   {
@@ -39,7 +39,7 @@ const milestones: Milestone[] = [
     image: IMAGES.logistics,
     alt: "Magazyn logistyczny z paletami",
     title: "Cały asortyment spożywczy",
-    desc: "Z hurtowni owocowo-warzywnej wyrośliśmy w pełnoprawnego dostawcę branży spożywczej. Napoje, nabiał, słodycze, wędliny, chemia, pieczywo — ponad 10 000 produktów u jednego partnera.",
+    desc: "Z hurtowni owocowo-warzywnej wyrośliśmy w pełnoprawnego dostawcę branży spożywczej. Napoje, nabiał, słodycze, wędliny, chemia, pieczywo. Ponad 10 000 produktów u jednego partnera.",
     stats: [{ value: "10 000+", label: "produktów" }, { value: "48 h", label: "czas dostawy" }],
   },
   {
@@ -90,12 +90,12 @@ export function AboutInteractive() {
           </p>
         </div>
 
-        {/* Zakładki */}
+        {/* Zakładki — grid 4 kolumny: mieszczą się bez przewijania (też na telefonie) */}
         <div
           role="tablist"
           aria-label="Historia firmy Fruit"
           onKeyDown={onKeyDown}
-          className="flex border-b border-[#EAEAEC] overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          className="grid grid-cols-4 border-b border-[#EAEAEC]"
         >
           {milestones.map((m, i) => {
             const isActive = i === active;
@@ -109,12 +109,12 @@ export function AboutInteractive() {
                 aria-controls="about-panel"
                 tabIndex={isActive ? 0 : -1}
                 onClick={() => setActive(i)}
-                className={`relative shrink-0 px-5 sm:px-6 py-4 text-left cursor-pointer outline-none focus-visible:bg-[#F6F6F7] transition-colors duration-200 ${
+                className={`relative px-2 sm:px-5 py-3 sm:py-4 text-left cursor-pointer outline-none focus-visible:bg-[#F6F6F7] transition-colors duration-200 ${
                   isActive ? "text-[#171717]" : "text-[#A1A1AA] hover:text-[#52525B]"
                 }`}
               >
-                <span className="block text-[11px] font-bold uppercase tracking-widest">{m.year}</span>
-                <span className="block mt-1 text-sm font-semibold whitespace-nowrap">{m.tab}</span>
+                <span className="block text-[10px] sm:text-[11px] font-bold uppercase tracking-widest">{m.year}</span>
+                <span className="block mt-1 text-xs sm:text-sm font-semibold leading-tight">{m.tab}</span>
                 <span
                   className={`absolute left-0 right-0 -bottom-px h-0.5 bg-[#E23744] transition-opacity duration-200 ${isActive ? "opacity-100" : "opacity-0"}`}
                   aria-hidden="true"
@@ -124,7 +124,7 @@ export function AboutInteractive() {
           })}
         </div>
 
-        {/* Panel — przełącza się natychmiast; key wymusza subtelny fade na CSS */}
+        {/* Panel: przełącza się natychmiast; key wymusza subtelny fade na CSS */}
         <div
           key={active}
           role="tabpanel"
@@ -144,7 +144,7 @@ export function AboutInteractive() {
           </div>
 
           {/* Treść */}
-          <div className="p-8 sm:p-11 order-2 lg:order-1 flex flex-col">
+          <div className="p-6 sm:p-11 order-2 lg:order-1 flex flex-col">
             <span className="text-sm font-bold text-[#A1A1AA] uppercase tracking-widest mb-4">{current.year}</span>
             <h3
               className="text-2xl sm:text-3xl font-extrabold text-[#171717] tracking-[-0.01em] mb-4 leading-tight"

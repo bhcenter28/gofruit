@@ -15,7 +15,7 @@ export function HeroSection() {
       {/* Zdjęcie tła */}
       <Image
         src={IMAGES.heroWarehouse}
-        alt="Magazyn hurtowni spożywczej Fruit — wysokie regały z towarem"
+        alt="Magazyn hurtowni spożywczej Fruit, wysokie regały z towarem"
         fill
         priority
         sizes="100vw"

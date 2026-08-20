@@ -76,11 +76,11 @@ export default function Home() {
         alt="Świeże owoce i warzywa na sklepowej ladzie"
         eyebrow="Asortyment"
         title="Świeżość prosto od producenta"
-        desc="Zaczynaliśmy od owoców i warzyw — i to wciąż nasza mocna strona. Dziś dokładamy do tego cały koszyk spożywczy, żeby zaopatrzyć Cię u jednego partnera."
+        desc="Zaczynaliśmy od owoców i warzyw. To wciąż nasza mocna strona. Dziś dokładamy do tego cały koszyk spożywczy, żeby zaopatrzyć Cię u jednego partnera."
         bullets={[
           "Owoce i warzywa dostarczane codziennie",
           "Nabiał, wędliny i mrożonki w pełnym łańcuchu chłodniczym",
-          "Napoje, słodycze, pieczywo i chemia — wszystko na jednej fakturze",
+          "Napoje, słodycze, pieczywo i chemia na jednej fakturze",
         ]}
         cta={{ href: "#kontakt", label: "Zapytaj o asortyment" }}
       />
@@ -92,7 +92,7 @@ export default function Home() {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#171717] tracking-tight" style={{ fontFamily: "var(--font-heading)" }}>
               Główne grupy produktów
             </h2>
-            <p className="text-sm text-[#71717A]">Nie prowadzimy sprzedaży detalicznej — obsługujemy wyłącznie firmy.</p>
+            <p className="text-sm text-[#71717A]">Nie prowadzimy sprzedaży detalicznej. Obsługujemy wyłącznie firmy.</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-px bg-[#EAEAEC] border border-[#EAEAEC]">
             {assortment.map(({ Icon, name }) => (

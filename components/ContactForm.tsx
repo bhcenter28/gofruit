@@ -117,7 +117,7 @@ export function ContactForm({ produkt }: { produkt?: string }) {
             </p>
           ) : (
             <p className="mt-2 text-sm text-[#71717A]">
-              Wypełnij formularz — przygotujemy ofertę dopasowaną do Twojego asortymentu i skali.
+              Wypełnij formularz, a przygotujemy ofertę dopasowaną do Twojego asortymentu i skali.
             </p>
           )}
         </div>
@@ -224,7 +224,7 @@ export function ContactForm({ produkt }: { produkt?: string }) {
                   rows={5}
                   aria-invalid={!!errors.wiadomosc}
                   className={textareaClass}
-                  placeholder="Opisz, czego potrzebujesz — jakie produkty Cię interesują i w jakiej ilości…"
+                  placeholder="Opisz, czego potrzebujesz: jakie produkty Cię interesują i w jakiej ilości…"
                 />
               </Field>
 
@@ -243,7 +243,7 @@ export function ContactForm({ produkt }: { produkt?: string }) {
               <button
                 type="submit"
                 disabled={status === "loading"}
-                className="group w-full h-13 py-4 flex items-center justify-center gap-2.5 rounded-none bg-[#E23744] text-white font-semibold text-sm hover:bg-[#C42130] disabled:opacity-60 disabled:cursor-not-allowed transition-colors duration-200 cursor-pointer"
+                className="group w-full py-4 px-6 flex items-center justify-center gap-2.5 rounded-none bg-[#E23744] text-white font-semibold text-sm hover:bg-[#C42130] disabled:opacity-60 disabled:cursor-not-allowed transition-colors duration-200 cursor-pointer"
               >
                 {status === "loading" ? (
                   <Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" />
@@ -252,7 +252,7 @@ export function ContactForm({ produkt }: { produkt?: string }) {
                 )}
                 {status === "loading" ? "Wysyłanie…" : "Wyślij zapytanie"}
                 {status !== "loading" && (
-                  <ArrowRight className="w-4 h-4 ml-auto group-hover:translate-x-1 transition-transform duration-200" aria-hidden="true" />
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" aria-hidden="true" />
                 )}
               </button>
 

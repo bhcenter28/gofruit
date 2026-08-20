@@ -27,7 +27,7 @@ export function Footer() {
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4">
-              <Image src="/logo.png" alt="Fruit — hurtownia spożywcza" width={44} height={44} className="rounded-none" />
+              <Image src="/logo.png" alt="Fruit, hurtownia spożywcza" width={44} height={44} className="rounded-none" />
               <div className="leading-none">
                 <p className="text-[#171717] font-bold text-base" style={{ fontFamily: "var(--font-heading)" }}>
                   Fruit

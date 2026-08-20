@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
     from: "Formularz Fruit <formularz@fruit-hurtownia.pl>",
     to: [process.env.CONTACT_EMAIL ?? "biuro@fruit-hurtownia.pl"],
     replyTo: email,
-    subject: `Nowe zapytanie od ${imie_nazwisko}${produkt ? ` — ${produkt}` : ""}`,
+    subject: `Nowe zapytanie od ${imie_nazwisko}${produkt ? `, ${produkt}` : ""}`,
     html: `
       <h2>Nowe zapytanie z formularza</h2>
       <table style="border-collapse:collapse;width:100%;font-family:sans-serif;font-size:14px">
